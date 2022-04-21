@@ -6,4 +6,4 @@ The table below lists the problem id, problem title, the category it was found i
 ## Arrays and Strings
 |#|Title|Category|Solution|Difficulty
 |---|---|---|---|---|
-|724|[Find Pivot Index](https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/)|Intro to Array|TBD|Easy|
+|724|[Find Pivot Index](https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/)|Intro to Array|[C#](https://github.com/jeffreyh93/LeetCode/blob/master/LeetCode/1.%20IntroToDS/ArrayAndString/_1_IntroToArray/FindPivotIndex.cs)|Easy|

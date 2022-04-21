@@ -19,6 +19,9 @@ namespace LeetCode._1._IntroToDS.ArrayAndString._1_IntroToArray
         // Input: nums = [1,2,3], output: -1
         // Input: nums = [2,1,-1], output: 0
 
+        // Space Complexity: O(1), no extra space needed. solution maintained with two ints
+        // Time Complexity: O(n), one pass through the int array
+
         public static int PivotIndex(int[] nums) {
             int sum = 0;
             foreach (int n in nums) sum += n;

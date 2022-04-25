@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode._1._IntroToDS.ArrayAndString._1_IntroToArray
 {
-    public static class FindPivotIndex
+    public static class _1_FindPivotIndex
     {
         // Given an array of integers, nums, calculate the pivot index of the array
         // The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum

@@ -39,7 +39,33 @@ namespace LeetCode
 
                 foreach (int[] arr in numsArr)
                 {
-                    Console.WriteLine($"arr = {PrintArr(arr)} result = {FindPivotIndex.PivotIndex(arr)}");
+                    Console.WriteLine($"arr = {PrintArr(arr)} result = {_1_FindPivotIndex.PivotIndex(arr)}");
+                }
+            }
+
+            // 2. Find Largest Number at Least Twice
+            Console.WriteLine("1b. Largest Number");
+            {
+                List<int[]> numsArr = new List<int[]>();
+                numsArr.Add(new int[] { 3, 6, 1, 0 });
+                numsArr.Add(new int[] { 1, 2, 3, 4 });
+                numsArr.Add(new int[] { 1 });
+
+                foreach (int[] arr in numsArr) {
+                    Console.WriteLine($"arr = {PrintArr(arr)} result = {_2_LargestNumberAtLeastTwice.NumberAtLeastTwice(arr)}");
+                }
+            }
+
+            // 3. Plus One
+            Console.WriteLine("1c. Plus One");
+            {
+                List<int[]> numsArr = new List<int[]>();
+                numsArr.Add(new int[] { 1, 2, 3 });
+                numsArr.Add(new int[] { 4, 3, 2, 1});
+                numsArr.Add(new int[] { 9 });
+
+                foreach (int[] arr in numsArr) {
+                    Console.WriteLine($"arr = {PrintArr(arr)} result = {PrintArr(_3_PlusOne.PlusOne(arr))}");
                 }
             }
 

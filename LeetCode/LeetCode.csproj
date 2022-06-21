@@ -6,8 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="1. IntroToDS\ArrayAndString\_2_IntroTo2DArray\" />
     <Folder Include="2. IntroToAlgo\" />
     <Folder Include="3. DetExplain\" />
+    <Folder Include="TopGoogleQuestions\Easy\" />
+    <Folder Include="TopGoogleQuestions\Medium\" />
+    <Folder Include="TopGoogleQuestions\Hard\" />
+    <Folder Include="TopGoogleQuestions\SystemDesign\" />
+    <Folder Include="TopMSQuestions\Hard\" />
+    <Folder Include="TopMSQuestions\Medium\" />
+    <Folder Include="TopMSQuestions\SystemDesign\" />
   </ItemGroup>
 
 </Project>
